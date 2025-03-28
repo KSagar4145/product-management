@@ -85,7 +85,8 @@ gradle-wrapper.jar
 *.md
 mvnw
 
-
+.ppk
+*.ppk
 # Spring configuration files (if you're storing sensitive info here)
 #application.properties
 #application.yml

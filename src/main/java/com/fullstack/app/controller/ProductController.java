@@ -18,7 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.fullstack.app.entity.Product;
 import com.fullstack.app.service.ProductService;
 
-@CrossOrigin(origins = "http://localhost:3000") // Allow requests from React frontend
+//@CrossOrigin(origins = "http://localhost:3000") // Allow requests from React frontend
+@CrossOrigin(origins = "http://product-management-frontend.s3-website.ap-south-1.amazonaws.com")
 @RestController
 @RequestMapping("/api/products")
 public class ProductController {
